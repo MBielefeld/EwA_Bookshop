@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Produkt>
+	<Produkttitel></Produkttitel>
+	<Produktcode></Produktcode> 
+	<Autor>
+		<AName></AName>
+		<AutorID></AutorID>
+	</Autor>
+	<Verlag>
+		<VName></VName>
+		<VerlagsID></VerlagsID>
+	</Verlag>
+	<Preisdaten>
+		<Steuersatz></Steuersatz>
+		<netto></netto>
+		<brutto></brutto>
+	</Preisdaten>
+	<Lagerbestand></Lagerbestand>
+	<Produktdetail>
+		<Gewicht></Gewicht>
+		<Kurzinhalt></Kurzinhalt>
+		<abmessungen>
+			<hoehe></hoehe>
+			<breite></breite>
+			<tiefe></tiefe>
+		</abmessungen>
+		<link_zu_grafik></link_zu_grafik>
+	</Produktdetail>	
+	<zusatz>
+		<zusatztyp></zusatztyp>
+		<zusatzwert></zusatzwert>
+	</zusatz>
+</Produkt>

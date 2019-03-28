@@ -1,0 +1,19 @@
+
+.header {
+	text-align: center
+}
+
+.navbar {
+	background-color: #f1f1f1;
+	display: flex;
+	justify-content: center;
+}
+
+a, .glyphicon-search {
+	cursor: pointer;
+}
+
+.img-thumbnail {
+	width: 158px;
+	height: 200px;
+}

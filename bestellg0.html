@@ -1,0 +1,34 @@
+<!--Hauptelement-->
+<div class="middle well col-md-8">
+	<!-- Kontaktformular -->
+	<form id="bestellformular" name="bestellformular" action="/EWA/G04/EwA_Projekt/berechnung.php" method="GET">
+		<div>
+			<div class="form-group">
+				<label for="SelfPHP">SelfPHP Anzahl:</label>
+				<input class="form-control" type="number" min=0 id="SelfPHP" name="SelfPHP" />
+			</div>
+
+			<div class="form-group">
+				<label for="PHPR">PHP-Referenz Anzahl:</label>
+				<input class="form-control" type="number" min=0 id="PHPR" name="PHPR" />
+			</div>
+
+			<div class="form-group">
+				<label for="PHPK">PHP-Kochbuch Anzahl:</label>
+				<input class="form-control" type="number" min=0 id="PHPK" name="PHPK" />
+			</div>
+
+			<select class="form-control">
+				<option value="Stammkunde">Stammkunde</option>
+				<option value="TV Werbung">TV Werbung</option>
+				<option value="Telefonbuch">Telefonbuch</option>
+				<option value="Mundpropaganda">Mundpropaganda</option>
+			</select>
+		</div>
+		<div>
+			<input class="btn btn-default" type="submit" value="Bestellen" />
+		</div>
+	</form>
+	<!-- Ende Kontaktformular-->
+</div>
+<!-- Ende Hauptelement -->
